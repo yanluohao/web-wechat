@@ -5,11 +5,6 @@
             <router-view></router-view>        
         </keep-alive>
         <v-foot></v-foot>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
     </div>
 </template>
 
