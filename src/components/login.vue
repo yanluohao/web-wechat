@@ -12,9 +12,10 @@ export default {
       }
   },
   methods:{
-      saveName(){
-          console.log("enter");
+      saveName(e){
           var name=this.username.trim();
+          //手机端调试的时候存在键盘不收缩的情况。所以需要做如下的处理
+          e.target.blur();
           this.$emit("register",name);
       }
   }

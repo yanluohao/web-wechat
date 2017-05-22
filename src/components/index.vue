@@ -1,6 +1,5 @@
 <template>
     <div id="index">
-        这是首页
         <keep-alive>
             <router-view></router-view>        
         </keep-alive>

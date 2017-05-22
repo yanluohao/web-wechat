@@ -33,5 +33,12 @@ export default {
 </script>
 
 <style>
-
+    html{
+        width:100%;
+        height:100%;
+        position:relative;
+    }
+    a,li,span{
+        -webkit-tap-highlight-color:rgba(0,0,0,0);
+    }
 </style>
